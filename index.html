@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Random Images 🎯</title>
     <link rel="stylesheet" href="./css/style.css">
@@ -10,18 +9,26 @@
 
 <body>
      <div class="container">
+        <div class="sub-container">
         <div class="row">
-          <div class="col-md-6"></div>
-          <div class="col-md-6"></div>
+          <div class="col-md-6">
+           <div class="gradient">
+             <h4 class="heading-5-paragraph text-center">Learning and mastering HTML, CSS, JavaScript, Bootstrap, Node.js, and React can be challenging, but the reward is creating beautiful, functional, and innovative web applications that can make a difference in the world.</h4>
+           </div>
+          </div>  
+          <div class="col-md-6">
+            <select name="menu1" id="menu1" class="select-box">
+                <option value="./pages/html.html">HTML</option>
+                <option value="./pages/css.html">CSS</option>
+                <option value="./pages/js.html">JavaScript</option>
+                <option value="./pages/react.html">React</option>
+                <option value="./pages/node.html">Node</option>
+            </select>
+          </div>
         </div>
+    </div>
      </div>
-    <select name="menu1" id="menu1">
-        <option value="./pages/html.html">HTML</option>
-        <option value="./pages/css.html">CSS</option>
-        <option value="./pages/js.html">JavaScript</option>
-        <option value="./pages/react.html">React</option>
-        <option value="./pages/node.html">Node</option>
-    </select>
+    
 
     <script>
         let urlmenu = document.getElementById('menu1');

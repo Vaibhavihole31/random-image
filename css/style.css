@@ -1,0 +1,15 @@
+.sub-container{
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 5px 1px gray;
+}
+.gradient{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(97,186,255,1) 0%, rgba(166,239,253,1) 90.1% );
+    padding: 15px;
+    border-radius: 10px;
+    margin: auto;
+}
