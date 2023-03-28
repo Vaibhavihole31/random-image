@@ -1,4 +1,4 @@
-.sub-container{
+.sub-container {
     padding: 20px;
     margin-top: 50px;
     border-radius: 10px;
@@ -7,37 +7,39 @@
     margin-right: auto;
     box-shadow: 2px 2px 5px 1px gray;
 }
-.gradient{
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(97,186,255,1) 0%, rgba(166,239,253,1) 90.1% );
-    padding: 15px;
+
+.gradient {
+    background-color: #ffebcd;;
+    padding: 25px;
     border-radius: 10px;
     margin: auto;
 }
 
-.languages-logo{
-    border-radius:50%;
-    box-shadow:0px 3px 5px #000;
+.languages-logo {
+    border-radius: 50%;
+    box-shadow: 0px 3px 5px #000;
     background-color: white;
-    height:64px;
-    width:64px;
+    height: 64px;
+    width: 64px;
     margin-top: 12px;
     padding: 5px;
     margin-top: 40px;
 }
 
-.languages-logo-container{
+.languages-logo-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.languages-logo:hover{
+.languages-logo:hover {
     cursor: pointer;
-  background-color: aliceblue;
-  border-radius: 5px;
-  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
 }
-.select-box{
+
+.select-box {
     font-size: 18px;
     padding: 5px;
     margin: 5px;
@@ -47,7 +49,8 @@
     border-radius: 5px;
     box-shadow: 2px 2px 5px 1px gray;
 }
-.random-image{
+
+.random-image {
     padding: 12px;
     margin-top: 10px;
     border-radius: 10px;
@@ -57,4 +60,8 @@
     box-shadow: 2px 2px 5px 1px gray;
     background-color: cornflowerblue;
     color: white;
+}
+
+.group-siccussion-img {
+    height: 320px;
 }
