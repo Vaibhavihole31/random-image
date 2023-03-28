@@ -11,43 +11,51 @@
 <body>
     <div class="container">
         <div class="sub-container">
-        <div class="row">
-          <div class="col-md-6">
-           <div class="gradient">
-             <h4 class="heading-5-paragraph text-center">Learning and mastering HTML, CSS, JavaScript, Bootstrap, Node.js, and React can be challenging, but the reward is creating beautiful, functional, and innovative web applications that can make a difference in the world.</h4>
-           </div>
-          </div>  
-          <div class="col-md-6">
-            <div class="random-image">
-              <h2 class="text-center">Random Image Generator📸</h2>
-            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="gradient">
+                        <h4 class="heading-5-paragraph text-center">Learning and mastering HTML, CSS, JavaScript,
+                            Bootstrap, Node.js, and React can be challenging, but the reward is creating beautiful,
+                            functional, and innovative web applications that can make a difference in the world.</h4>
+                        <div class="languages-logo-container">
+                            <img class="languages-logo" src="./images/indexpage/htmllogo.png" />
+                            <img class="languages-logo" src="./images/indexpage/csslogo.png" />
+                            <img class="languages-logo" src="./images/indexpage/jslogo.png" />
+                        </div>
+                        <div class="languages-logo-container">
+                            <img class="languages-logo" src="./images/indexpage/bootstraplogo.png" />
+                            <img class="languages-logo" src="./images/indexpage/reactlogo.png" />
+                            <img class="languages-logo" src="./images/indexpage/nodejslogo.png" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="random-image">
+                        <h2 class="text-center">Random Image Generator📸</h2>
+                    </div>
 
-            <div class="text-center mt-5">
-            <select name="menu1" id="menu1" class="select-box text-center">
-                <option value="./pages/html.html">HTML</option>
-                <option value="./pages/css.html">CSS</option>
-                <option value="./pages/js.html">JavaScript</option>
-                <option value="./pages/react.html">React</option>
-                <option value="./pages/node.html">Node</option>
-            </select>
-          </div>
-          </div>
-        </div>
-    </div>
-     </div>
-    
+                    <div class="text-center mt-5">
+                        <select name="menu1" id="menu1" class="select-box text-center">
+                            <option value="./pages/html.html">HTML</option>
+                            <option value="./pages/css.html">CSS</option>
+                            <option value="./pages/js.html">JavaScript</option>
+                            <option value="./pages/react.html">React</option>
+                            <option value="./pages/node.html">Node</option>
+                        </select>
+                    </div>
+                </div>
 
-    <script>
-        let urlmenu = document.getElementById('menu1');
-        urlmenu.onchange = function () {
-            window.open(this.options[this.selectedIndex].value);
-        };
-    </script>
+                <script>
+                    let urlmenu = document.getElementById('menu1');
+                    urlmenu.onchange = function () {
+                        window.open(this.options[this.selectedIndex].value);
+                    };
+                </script>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
-        crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+                    crossorigin="anonymous"></script>
 </body>
 
 </html>
