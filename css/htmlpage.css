@@ -32,4 +32,21 @@
     margin-right: auto;
     box-shadow: 2px 2px 5px 1px gray;
 }
+.image-conatiner{
+    width: 45%;
+    box-shadow: 2px 2px 5px 1px gray;
+    border-radius: 15px;
+    border: 7px double black;
+}
+.btn-randon{
+    width: 25%;
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+    background-color: green;
+}
+.btn-randon:hover{
+    box-shadow: 2px 2px 5px 1px gray;
+}
+
 
