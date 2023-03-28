@@ -13,6 +13,7 @@
     padding: 25px;
     border-radius: 10px;
     margin: auto;
+   
 }
 
 .languages-logo {
@@ -51,8 +52,8 @@
 }
 
 .random-image {
-    padding: 12px;
-    margin-top: 10px;
+    padding: 10px;
+    margin-top: 5px;
     border-radius: 10px;
     display: block;
     margin-left: auto;
