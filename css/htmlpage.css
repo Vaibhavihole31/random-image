@@ -1,5 +1,5 @@
 .footer{
-    padding: 12px;
+    padding: 5px;
     margin-top: 5px;
     display: block;
     margin-left: auto;
@@ -10,7 +10,7 @@
 }
 
 .header{
-        padding: 10px;
+        padding: 5px;
         width: 40%;
         margin-top: 5px;
         border-radius: 10px;
@@ -33,7 +33,6 @@
     box-shadow: 2px 2px 5px 1px gray;
 }
 .image-container{
-    height: 450px;
     box-shadow: 2px 2px 5px 1px gray;
     border-radius: 15px;
     border: 7px double black;
@@ -50,9 +49,23 @@
     box-shadow: 2px 2px 5px 1px gray;
 }
 .random-img-class{
-    display: flex;
+        display: flex;
         flex-direction: row;
         justify-content: space-around;
 }
 
+@media screen and (max-width: 480px) {
+        .random-img-class{    
+           display: contents;
+           flex-direction: column;
+    } 
+  }
+  @media screen and (min-width: 480px) {
+    .image-container{
+       height: 300px;
+       box-shadow: 2px 2px 5px 1px gray;
+       border-radius: 15px;
+       border: 5px double black;
+   }
+  }
 
