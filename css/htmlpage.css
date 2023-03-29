@@ -32,14 +32,15 @@
     margin-right: auto;
     box-shadow: 2px 2px 5px 1px gray;
 }
-.image-conatiner{
-    width: 45%;
+.image-container{
+    height: 450px;
     box-shadow: 2px 2px 5px 1px gray;
     border-radius: 15px;
     border: 7px double black;
 }
 .btn-randon{
-    width: 25%;
+    width: 200px;
+    height: 50px;
     border-radius: 10px;
     color: white;
     height: 40px;
@@ -47,6 +48,11 @@
 }
 .btn-randon:hover{
     box-shadow: 2px 2px 5px 1px gray;
+}
+.random-img-class{
+    display: flex;
+        flex-direction: row;
+        justify-content: space-around;
 }
 
 
